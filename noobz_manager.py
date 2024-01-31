@@ -317,12 +317,13 @@ async def start(event):
 		v = subprocess.check_output(["vnstat","--oneline"])
 		today_total = str(v).split(";")[5]
 		month_total = str(v).split(";")[14].replace("\\n","")
+		isp = requests.get("http://ip-api.com/json/").json()["isp"]
 		msg = f"""**Welcome {s.first_name} To Noobz-Manager**
 
 **===[ INFO ]===**
 **• Noobz-VPN Status: **`{"[ON]" + g if unit.Unit.SubState == b"running" else "[OFF]"+r}`
-**• Active Users: **`[Null]`
-**• Blocked Users: **`[Null]`
+**• Server Domain: **`{HOST}`
+**• Server ISP: **`{isp}`
 **===[ PORTS ]===**
 **• TCP STD:** {str(json.loads(open(PATH + "config.json").read())["tcp_std"])}
 **• TCP SSL:** {str(json.loads(open(PATH + "config.json").read())["tcp_ssl"])}
