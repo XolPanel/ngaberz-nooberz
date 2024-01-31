@@ -1,6 +1,6 @@
 # Noobz-VPN
 
-# STOP ! PLEASE INSTALL NOOBZ-VPN BEFORE RUNNING ALL OF THIS COMMAND BELOW.
+### STOP ! PLEASE INSTALL NOOBZ-VPN BEFORE RUNNING ALL OF THIS COMMAND BELOW.
 
 <a href=https://github.com/noobz-id/noobzvpns>Noobz-VPN Installer</href>
 
