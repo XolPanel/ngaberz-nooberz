@@ -1,0 +1,11 @@
+[Unit]
+Description=Noobz-MANAGER - @xolv4
+After=network.target
+
+[Service]
+WorkingDirectory=/root/ngaberz-nooberz
+ExecStart=python3 noobz_manager.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
