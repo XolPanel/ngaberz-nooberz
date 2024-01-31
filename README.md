@@ -7,6 +7,7 @@
 ### Quick installation:
 ```
 apt update && apt upgrade
+apt install python3-pystemd
 apt install python3 git
 git clone https://github.com/XolPanel/ngaberz-nooberz
 cd ngaberz-nooberz
