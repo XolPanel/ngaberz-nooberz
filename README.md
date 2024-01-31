@@ -30,3 +30,6 @@ systemctl start noobzmanager
 ```
 systemctl stop noobzmanager
 ```
+
+### Screenshot
+![ss](https://raw.githubusercontent.com/XolPanel/ngaberz-nooberz/main/SmartSelect_20240131_190524_Telegram.jpg)
