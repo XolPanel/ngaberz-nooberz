@@ -2,7 +2,7 @@
 
 # STOP ! PLEASE INSTALL NOOBZ-VPN BEFORE RUNNING ALL OF THIS COMMAND BELOW.
 
-## <href=https://github.com/noobz-id/noobzvpns>Noobz-VPN Installer</href>
+<href=https://github.com/noobz-id/noobzvpns>Noobz-VPN Installer</href>
 
 ### Quick installation:
 ```
